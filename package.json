@@ -1,0 +1,32 @@
+{
+  "name": "web3-ttt-ecosystem-contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for the frontend of our project",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ipfs-http-client": "^50.1.2",
+    "web-vitals": "^1.1.2",
+    "@openzeppelin/contracts": "^4.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-strawser/web3-ttt-ecosystem-contracts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r-strawser/web3-ttt-ecosystem-contracts/issues"
+  },
+  "homepage": "https://github.com/r-strawser/web3-ttt-ecosystem-contracts#readme",
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.4.2",
+    "dotenv": "^10.0.0"
+  }
+}
